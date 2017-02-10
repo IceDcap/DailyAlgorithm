@@ -1,4 +1,4 @@
-package CourseSchedule;
+package com.icedcap.CourseSchedule;
 
 /**
  * 207. Course Schedule(M)
