@@ -1,4 +1,4 @@
-package com.icedcap.OddEvenLinkedList;
+package com.icedcap.leetcode.listnode.OddEvenLinkedList;
 
 /**
  * 328. Odd Even Linked List(M)

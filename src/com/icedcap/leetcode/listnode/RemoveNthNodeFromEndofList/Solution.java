@@ -1,4 +1,4 @@
-package com.icedcap.RemoveNthNodeFromEndofList;
+package com.icedcap.leetcode.listnode.RemoveNthNodeFromEndofList;
 
 import com.icedcap.datastruction.ListNode;
 
