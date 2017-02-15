@@ -1,4 +1,4 @@
-package com.icedcap.leetcode.listnode;
+package com.icedcap.leetcode.string;
 
 /**
  * 67. Add Binary(E)
