@@ -1,4 +1,4 @@
-package com.icedcap.SortList;
+package com.icedcap.leetcode.SortList;
 
 /**
  * Sort List(M)

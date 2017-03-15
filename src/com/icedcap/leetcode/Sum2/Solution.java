@@ -1,4 +1,4 @@
-package com.icedcap.Sum2;
+package com.icedcap.leetcode.Sum2;
 
 import java.util.HashMap;
 import java.util.Map;

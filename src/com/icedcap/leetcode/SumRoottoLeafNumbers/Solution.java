@@ -1,4 +1,4 @@
-package com.icedcap.SumRoottoLeafNumbers;
+package com.icedcap.leetcode.SumRoottoLeafNumbers;
 
 /**
  * 129. Sum Root to Leaf Numbers(M)

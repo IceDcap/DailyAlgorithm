@@ -1,4 +1,4 @@
-package com.icedcap.CourseSchedule;
+package com.icedcap.leetcode.CourseSchedule;
 
 /**
  * 207. Course Schedule(M)

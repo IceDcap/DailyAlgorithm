@@ -1,4 +1,4 @@
-package com.icedcap.InsertionSortList;
+package com.icedcap.leetcode.InsertionSortList;
 
 /**
  * 147. Insertion Sort List(M)

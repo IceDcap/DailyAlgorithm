@@ -1,4 +1,4 @@
-package com.icedcap.AddTwoNumber2;
+package com.icedcap.leetcode.AddTwoNumber2;
 
 import java.util.Stack;
 

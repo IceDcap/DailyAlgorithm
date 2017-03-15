@@ -1,4 +1,4 @@
-package com.icedcap.SplitArrayLargestSum;
+package com.icedcap.leetcode.SplitArrayLargestSum;
 
 /**
  * 410. Split Array Largest Sum (H)
