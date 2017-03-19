@@ -29,6 +29,29 @@ public class L6 {
             }
             head = tailNode.next;
         }
+        head.next = null;
+        return head;
+    }
+
+    public static ListNode getSurvive2(ListNode head, int m) {
+        if (head == null || head.next == null || m < 1) return head;
+        ListNode pre = head;
+        while (pre.next != head) {
+            pre = pre.next;
+        }
+        int count = 0;
+        while (head != pre) {
+            if (++count == m) {
+                pre.next = head.next;
+                head.next = null;
+                head = pre.next;
+                count = 0;
+            } else {
+                pre = pre.next;
+                head = head.next;
+            }
+        }
+        head.next = null;
         return head;
     }
 
@@ -39,6 +62,6 @@ public class L6 {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
         head.next.next.next.next.next = head;
-        Helper.printListNode(getSurvive(head, 3));
+        Helper.printListNode(getSurvive2(head, 3));
     }
 }
