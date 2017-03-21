@@ -16,7 +16,7 @@ public class Quick {
     public static void quickSort(int[] arr, int left, int right) {
         if (left >= right) return;
         int pivot = partition(arr, left, right);
-        quickSort(arr, left, pivot-1);
+        quickSort(arr, left, pivot - 1);
         quickSort(arr, pivot + 1, right);
     }
 
@@ -35,10 +35,10 @@ public class Quick {
      * @return
      */
     public static int partition(int[] arr, int left, int right) {
-        while (left< right) {
-            while (left<right&&arr[right] > arr[left]) right--;
+        while (left < right) {
+            while (left < right && arr[right] >= arr[left]) right--;
             swap(arr, left, right);
-            while (left<right&&arr[left]< arr[right]) left++;
+            while (left < right && arr[left] <= arr[right]) left++;
             swap(arr, left, right);
         }
         return left;

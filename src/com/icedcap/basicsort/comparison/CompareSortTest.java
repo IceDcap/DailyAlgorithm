@@ -11,8 +11,8 @@ public class CompareSortTest {
 //        Selection.selectionSort(sequence);
 //        Insertion.insertionSort(sequence);
 //        Quick.sort(sequence);
-//        Shell.shellSort(sequence);
-        Merge.mergeSort(sequence);
+        Shell.shellSort(sequence);
+//        Merge.mergeSort(sequence);
 
         System.out.print("[ ");
         for (int i : sequence) {

@@ -28,11 +28,12 @@ public class S5 {
         if (!isValid(chars)) return 0;
         int minq = Integer.MIN_VALUE / 10;
         int minc = Integer.MIN_VALUE % 10;
+//        System.out.println(minc + "\t" + minq);
         int res = 0;
         int num = 0;
         boolean posi = chars[0] != '-';
         for (int i = posi ? 0 : 1; i < chars.length; i++) {
-            num = chars[i] - '0';
+            num = -chars[i] + '0';
             if (res < minq || res == minq && num < minc) {
                 return 0;
             }
@@ -41,7 +42,7 @@ public class S5 {
 
         if (posi && res == Integer.MIN_VALUE)
             return 0;
-        return posi ? res : -res;
+        return posi ? -res : res;
     }
 
     public static void main(String[] args) {

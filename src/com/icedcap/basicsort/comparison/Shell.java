@@ -13,7 +13,7 @@ public class Shell {
     private static void shellInsert(int[] arr, int d/*offset*/) {
         for (int i = d; i < arr.length; i++) {
             int target = arr[i], j = i;
-            while (j > 0 && target < arr[j - d]) {
+            while ((j-d) >= 0 && target < arr[j - d]) {
                 arr[j] = arr[j - d];
                 j -= d;
             }

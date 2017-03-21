@@ -34,9 +34,9 @@ public class S174 {
         int column = dungeon[0].length;
         int[][] dp = new int[row--][column--];
         dp[row][column] = dungeon[row][column] > 0 ? 1 : -dungeon[row][column] + 1;
-        for (int j = column - 1; j >= 0; j--) {
-            dp[row][j] = Math.max(dp[row][j + 1] - dungeon[row][j], 1);
-        }
+//        for (int j = column - 1; j >= 0; j--) {
+//            dp[row][j] = Math.max(dp[row][j + 1] - dungeon[row][j], 1);
+//        }
 
         for (int i = row - 1; i >= 0; i--) {
             dp[i][column] = Math.max(dp[i + 1][column] - dungeon[i][column], 1);
