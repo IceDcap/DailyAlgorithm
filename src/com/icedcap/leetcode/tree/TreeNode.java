@@ -4,10 +4,10 @@ package com.icedcap.leetcode.tree;
  * Created by icedcap on 24/03/2017.
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int val) {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode(int val) {
         this.val = val;
     }
 
