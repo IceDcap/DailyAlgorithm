@@ -1,4 +1,4 @@
-package com.icedcap.leetcode.bfs;
+package com.icedcap.leetcode.bfsordfs;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package com.icedcap.leetcode.bfs;
+package com.icedcap.leetcode.bfsordfs;
 
 import com.icedcap.leetcode.tree.TreeNode;
 
