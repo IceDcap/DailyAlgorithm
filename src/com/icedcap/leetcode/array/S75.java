@@ -1,4 +1,4 @@
-package com.icedcap.leetcode.sort;
+package com.icedcap.leetcode.array;
 
 /**
  * 75. Sort Colors
